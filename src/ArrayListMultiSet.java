@@ -34,8 +34,9 @@ public class ArrayListMultiSet extends MultiSet {
      */
     @Override
     boolean contains(int item) {
-        return false;
+        return lst.contains(item);
     }
+
 
     /**
      * @return True if this multiset is empty.
